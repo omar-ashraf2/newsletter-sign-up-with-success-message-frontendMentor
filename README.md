@@ -1,6 +1,6 @@
 ## Welcome! 👋
 
-Thanks for checking out this Frontend Mentor challenge, any feedback would be appreciated.
+Thanks for checking it out, any comments will be appreciated.
 
 # Frontend Mentor - Newsletter sign-up form with success message solution
 
@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://omar-ashraf2.github.io/newsletter-sign-up-with-success-message-frontendMentor/)
 
 ### Built with
 
@@ -36,5 +36,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ETDodger)
-- Twitter - [@yourusername](https://twitter.com/etdodger)
+- Frontend Mentor - [@ETDodger](https://www.frontendmentor.io/profile/ETDodger)
+- Twitter - [@etdodger](https://twitter.com/etdodger)
