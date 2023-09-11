@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: hsl(235, 18%, 26%);
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: hsl(234, 29%, 20%);
+  font-size: 18px;
+}
+
+h1 {
+  color: hsl(234, 29%, 20%);
+  font-size: 56px;
+}
+
+.signUp {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  padding: 20px;
+  background-color: white;
+  border-radius: 35px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+}
+.signUp .signupImg {
+  max-width: 100%;
+  background-image: url("./assets/images/illustration-sign-up-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  gap: 20px;
+}
+.card li {
+  display: flex;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.card li img {
+  margin-right: 15px;
+  width: 16px;
+  height: 16px;
+  max-width: 100%;
+}
+
+form .emailLabel {
+  display: flex;
+  justify-content: space-between;
+}
+form .emailLabel label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+}
+form .emailLabel .emailH {
+  color: hsl(234, 29%, 20%);
+}
+form .emailLabel .err {
+  color: hsl(4, 100%, 67%);
+  display: none;
+}
+form input {
+  width: 100%;
+  padding: 20px 0;
+  margin: 8px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+form #email {
+  padding-left: 20px;
+  border: 1px solid hsl(231, 7%, 60%);
+  color: hsl(231, 7%, 60%);
+}
+form .submit {
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  border: none;
+}
+form .submit:hover {
+  background-color: hsl(4, 100%, 67%);
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 375px) {
+  .signUp {
+    display: flex !important;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    border-radius: 0;
+    padding: 0;
+  }
+  .signUp .signupImg {
+    display: block;
+    background-image: url("./assets/images/illustration-sign-up-mobile.svg");
+    height: 283px;
+  }
+  .signUp .card {
+    padding: 0 20px 30px;
+  }
+  .signUp .card h1 {
+    font-size: 44px;
+  }
+  .signUp .card p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media screen and (375px <= width <= 1400px) {
+  .signUp {
+    width: 500px;
+    grid-template-columns: auto;
+  }
+  .signUp .signupImg {
+    display: none;
+  }
+}
+.successCard {
+  display: none;
+  background-color: white;
+  border-radius: 35px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px 60px;
+  width: 500px;
+}
+.successCard img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.successCard h1 {
+  margin-bottom: 25px;
+}
+.successCard p {
+  line-height: 25px;
+}
+.successCard p span {
+  font-weight: bold;
+}
+.successCard .dismiss {
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  padding: 20px 0;
+  margin: 50px 0 25px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.successCard .dismiss:hover {
+  background-color: hsl(4, 100%, 67%);
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 375px) {
+  .successCard {
+    width: 100%;
+    height: 100vh;
+    border-radius: 0;
+    padding: 150px 25px;
+  }
+  .successCard h1 {
+    font-size: 44px;
+  }
+  .successCard p {
+    font-size: 16px;
+  }
+  .successCard .dismiss {
+    position: absolute;
+    width: calc(100% - 50px);
+    bottom: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
