@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://omar-ashraf2.github.io/newsletter-sign-up-with-success-message-frontendMentor/)
+- Live Site URL: [HERE](https://omar-ashraf2.github.io/newsletter-sign-up-with-success-message-frontendMentor/)
 
 ### Built with
 
